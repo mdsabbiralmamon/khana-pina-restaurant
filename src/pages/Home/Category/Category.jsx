@@ -15,14 +15,12 @@ import sliderImage1 from "../../../assets/home/slide1.jpg";
 import sliderImage2 from "../../../assets/home/slide2.jpg";
 import sliderImage3 from "../../../assets/home/slide3.jpg";
 import sliderImage4 from "../../../assets/home/slide4.jpg";
+import SectionHeading from '../../Shared/SectionHeading/SectionHeading';
 
 const Category = () => {
     return (
         <div className='container mx-auto my-24'>
-            <div className='mx-auto text-center mb-24'>
-                <h3>---From 11:00am to 10:00pm---</h3>
-                <h2>ORDER ONLINE</h2>
-            </div>
+            <SectionHeading top_heading={"---From 11:00am to 10:00pm---"} heading={"Order Online"} />
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
